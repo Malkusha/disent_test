@@ -1,0 +1,13 @@
+.tech__title {
+  margin: 0;
+  font-size: 48px;
+  line-height: 26px;
+  font-weight: 700;
+  color:#42446E;
+}
+
+@media screen and (max-width: 1100px) {
+  .tech__title {
+    font-size: 28px;
+  }
+}

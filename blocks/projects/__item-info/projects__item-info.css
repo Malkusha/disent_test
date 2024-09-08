@@ -1,0 +1,6 @@
+.projects__item-info {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,33 @@
+.intro__title {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: -1px;
+  color: #42446E;
+}
+
+@media screen and (max-width: 1080px) {
+  .intro__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro__title {
+    font-size: 32px;
+  }
+
+  .intro__title > br:nth-last-of-type(2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro__title {
+    text-align: center;
+  }
+
+  .intro__title > br:first-child {
+    display: none;
+  }
+}

@@ -1,0 +1,6 @@
+.projects__item {
+  width: 373px;
+  height: 567px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 100px 20px rgba(0, 0, 0, 0.2);
+}

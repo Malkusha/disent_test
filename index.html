@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TS</title>
+    <link href="./index.css" rel="stylesheet">
+    <script src="index.js"></script>  
+  </head>
+  <body class="page">
+    <header class="header">
+      <a class="logo" href="#"><img class="logo__img" src="./images/logo/logo_header.svg" alt="Logo"/></a>
+      <nav class="header__menu">
+        <ul class="header__menu-items" id="burger">
+          <li class="header__menu-item"><a class="menu__link" href="#">Home</a></li>
+          <li class="header__menu-item"><a class="menu__link" href="#">About</a></li>
+          <li class="header__menu-item"><a class="menu__link" href="#">Tech Stack</a></li>
+          <li class="header__menu-item"><a class="menu__link" href="#">Projects</a></li>
+          <li class="header__menu-item"><a class="menu__link" href="#">Contact</a></li>
+        </ul>
+        <ul class="header__menu-items social-networks">
+          <li><img src="./images/social_net/git.svg" alt="github"/></li>
+          <li><img src="./images/social_net/twitter.svg" alt="twitter"/></li>
+          <li><img src="./images/social_net/linkedin.svg" alt="linkedin"/></li>
+        </ul>
+        <div class="header__menu-icon" onclick="burgerMenu(this)">
+          <div class="header__burger"></div>
+          <div class="header__burger"></div>
+          <div class="header__burger"></div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="intro">
+        <h1 class="intro__title">Hi 👋,<br/> My name is <br/><span class="intro__title-name">Pavan&nbspMG</span><br/> I build things for&nbspweb</h1>
+        <img class="intro__img" src="./images/intro.png" alt="photo"/>
+      </section>
+      <section class="tech">
+        <h2 class="tech__title">My Tech Stack</h2>
+        <p class="tech__text"> Technologies I’ve been working with recently</p>
+        <ul class="tech__info">
+          <li class="tech__info_item"><img src="./images/tech/html.svg" alt="html"/></li>
+          <li class="tech__info_item"><img src="./images/tech/css.svg" alt="css"/></li>
+          <li class="tech__info_item"><img src="./images/tech/js.svg" alt="js"/></li>
+          <li class="tech__info_item"><img src="./images/tech/react.svg" alt="react"/></li>
+          <li class="tech__info_item"><img src="./images/tech/redux.svg" alt="redux"/></li>
+          <li class="tech__info_item"><img src="./images/tech/bootstrap.svg" alt="bootstrap"/></li>
+          <li class="tech__info_item"><img src="./images/tech/tailwind.svg" alt="tailwind"/></li>
+          <li class="tech__info_item"><img src="./images/tech/sass.svg" alt="sass"/></li>
+          <li class="tech__info_item"><img src="./images/tech/git.svg" alt="git"/></li>
+          <li class="tech__info_item"><img src="./images/tech/greensock.svg" alt="greensock"/></li>
+          <li class="tech__info_item"><img src="./images/tech/vscode.svg" alt="vscode"/></li>
+          <li class="tech__info_item"><img src="./images/tech/github.svg" alt="github"/></li>
+        </ul>
+      </section>
+      <section class="projects">
+        <h2 class="projects__title">Projects</h2>
+        <p class="projects__text">Things I’ve built so far</p>
+        <ul class="projects__itemlist">
+          <li class="projects__item">
+            <img class="projects__item-img" src="./images/projects/Rectangle_1.png" alt="1st project image"/>
+            <div class="projects__item-info">
+              <h3 class="projects__item-title">Project Tile goes here</h3>
+              <p class="projects__item-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="projects__item-stack">
+                <span  class="projects__item-stack_weight_bold">Tech stack :</span>
+                HTML , JavaScript, SASS, React
+              </p>
+              <div class="projects__item-links">
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/link-chain.svg" alt="link"/>Live Preview</a>
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/git.svg"/>View Code</a>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img class="projects__item-img" src="./images/projects/Rectangle_2.png" alt="2nd project image"/>
+            <div class="projects__item-info">
+              <h3 class="projects__item-title">Project Tile goes here</h3>
+              <p class="projects__item-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="projects__item-stack">
+                <span  class="projects__item-stack_weight_bold">Tech stack :</span>
+                HTML , JavaScript, SASS, React
+              </p>
+              <div class="projects__item-links">
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/link-chain.svg" alt="link"/>Live Preview</a>
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/git.svg"/>View Code</a>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img class="projects__item-img" src="./images/projects/Rectangle_3.png" alt="3rd project image"/>
+            <div class="projects__item-info">
+              <h3 class="projects__item-title">Project Tile goes here</h3>
+              <p class="projects__item-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="projects__item-stack">
+                <span  class="projects__item-stack_weight_bold">Tech stack :</span>
+                HTML , JavaScript, SASS, React
+              </p>
+              <div class="projects__item-links">
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/link-chain.svg" alt="link"/>Live Preview</a>
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/git.svg"/>View Code</a>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img class="projects__item-img" src="./images/projects/Rectangle_4.png" alt="4th project image"/>
+            <div class="projects__item-info">
+              <h3 class="projects__item-title">Project Tile goes here</h3>
+              <p class="projects__item-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="projects__item-stack">
+                <span  class="projects__item-stack_weight_bold">Tech stack :</span>
+                HTML , JavaScript, SASS, React
+              </p>
+              <div class="projects__item-links">
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/link-chain.svg" alt="link"/>Live Preview</a>
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/git.svg"/>View Code</a>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img class="projects__item-img" src="./images/projects/Rectangle_5.png" alt="5th project image"/>
+            <div class="projects__item-info">
+              <h3 class="projects__item-title">Project Tile goes here</h3>
+              <p class="projects__item-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="projects__item-stack">
+                <span  class="projects__item-stack_weight_bold">Tech stack :</span>
+                HTML , JavaScript, SASS, React
+              </p>
+              <div class="projects__item-links">
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/link-chain.svg" alt="link"/>Live Preview</a>
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/git.svg"/>View Code</a>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <img class="projects__item-img" src="./images/projects/Rectangle_6.png" alt="6th project image"/>
+            <div class="projects__item-info">
+              <h3 class="projects__item-title">Project Tile goes here</h3>
+              <p class="projects__item-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="projects__item-stack">
+                <span  class="projects__item-stack_weight_bold">Tech stack :</span>
+                HTML , JavaScript, SASS, React
+              </p>
+              <div class="projects__item-links">
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/link-chain.svg" alt="link"/>Live Preview</a>
+                <a class="projects__item-link"><img class="projects__link-img" src="./images/social_net/git.svg"/>View Code</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="logo"><img class="logo__img" src="./images/logo/logo_footer.svg" alt="Logo"/></a>
+      <ul class="header__menu-items footer__contacts">
+        <li class="footer__contacts-item">+91 12345 09876</li>
+        <li class="footer__contacts-item">info@example.com</li>
+      </ul>
+      <ul class="header__menu-items social-networks">
+        <li><img src="./images/social_net/git.svg" alt="github"/></li>
+        <li><img src="./images/social_net/twitter.svg" alt="twitter"/></li>
+        <li><img src="./images/social_net/linkedin.svg" alt="linkedin"/></li>
+      </ul>
+      <div class="footer__line"></div>
+      <ul class="footer__menu">
+        <li class="footer__menu-item">Home</li>
+        <li class="footer__menu-item">About</li>
+        <li class="footer__menu-item">Technologies</li>
+        <li class="footer__menu-item">Projects</li>
+        <li class="footer__menu-item">Contact</li>
+      </ul>
+      <p class="footer__text">Designed&nbspand&nbspbuilt by&nbsp<span class="intro__title-name">Pavan&nbspMG <span class="footer__title-name_color_grey">with</span>&nbspLove&nbsp<span class="footer__title-name_color_grey">&</span>&nbspCoffee</span></p>
+    </footer>
+  </body>
+</html>

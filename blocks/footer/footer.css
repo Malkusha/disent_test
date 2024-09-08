@@ -1,0 +1,19 @@
+.footer {
+  max-width: 1235px;
+  padding-right: 25px;
+  margin: 0 auto;
+  display: grid;
+  grid-template: repeat(3, 1fr) / 100px 1fr 1fr 130px;
+}
+
+@media screen and (max-width: 990px) {
+  .footer {
+    grid-template-rows: 1fr 50px 2fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer > .social-networks {
+    display: none;
+  }
+}

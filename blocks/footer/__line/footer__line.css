@@ -1,0 +1,7 @@
+.footer__line {
+  margin-top: 30px;
+  grid-column: 1 / 5;
+  max-width: 1215px;
+  height: 2px;
+  background-color: #666;
+}

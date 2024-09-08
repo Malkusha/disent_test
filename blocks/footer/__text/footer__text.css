@@ -1,0 +1,21 @@
+.footer__text {
+  align-self: center;
+  grid-column: 3 / 5;
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: #151439;
+  text-align: right;
+}
+
+@media screen and (max-width: 1180px) {
+  .footer__text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .footer__text {
+    align-self: flex-start;
+  }
+}

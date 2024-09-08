@@ -1,0 +1,11 @@
+.footer__contacts-item {
+  font-size: 18px;
+  line-height: 26px;
+  color: #42446E;
+}
+
+@media screen and (max-width: 1180px) {
+  .footer__contacts-item {
+    font-size: 14px;
+  }
+}

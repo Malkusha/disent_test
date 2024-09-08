@@ -1,0 +1,6 @@
+.social-networks {
+  justify-self: right;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

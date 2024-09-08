@@ -1,0 +1,10 @@
+.header__menu-item {
+  font-family: 'DM Sans', Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1140px) {
+  .header__menu-item {
+    font-size: 18px;
+  }
+}
